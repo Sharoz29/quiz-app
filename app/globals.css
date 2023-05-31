@@ -25,3 +25,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.quiz-setup-title {
+  font-size: 3rem;
+}
+.quiz-container {
+  width: 75%;
+}
+.quiz-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb; */
+}
+.quiz-container > form > label {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 1rem;
+}
+.option {
+  width: 25rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+}
+.quiz-start-btn {
+  background-color: rgb(34, 150, 200);
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
